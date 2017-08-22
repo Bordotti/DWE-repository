@@ -1,0 +1,26 @@
+.mainly{
+	
+}
+#info{
+	padding-left: 20px;
+	font-size: 18px;
+
+}
+
+.topicos{
+	background-color: rgba(100,100,100,0.8);
+	border-radius: 20px;
+}
+
+#dados{
+	size: 250px;
+	border: 20px;
+	border-color: black;
+}
+body{
+	background-image: url("images/light_wood.jpg");
+}
+
+li{
+	display: inline;
+}
