@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<title>Teste 1 JS</title>
+
+	<script>
+	function calc(){
+		var sair = "nao";
+		do{		
+			var num1 = prompt("Digite o valor 1: ");
+			var num2 = prompt("Digite o valor 2: ");
+
+			num1 = parseInt(num1);
+			num2 = parseInt(num2);
+
+			var res = 0;
+			var operacao = prompt("Digite a operacao para ser realizado: ");
+			switch(operacao){
+				case "+":
+					res = num1 + num2;
+					break;
+				case "-":
+					res = num1 - num2;
+					break;
+				case "/":
+					res = num1 / num2;
+					break;
+				case "*":
+					res = num1 * num2;
+					break;
+				default:
+					alert("Digite uma operacao valida");
+					break;
+			}
+
+		alert("O Resultado é: " + res);
+		sair = prompt("Deseja executar outra operacao?");
+		}while(sair == "sim");	
+
+
+	}
+		
+	</script>
+
+	<body onload="calc()">
+	
+	</body>
+	}
+</html>

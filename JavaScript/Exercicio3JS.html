@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<title>Teste 1 JS</title>
+
+	<script>
+		function verif_voto(idade){
+				if(idade <= 16){
+					alert("Não apto a votar");
+				}else if(idade >= 65){
+					alert("Voto facultativo");
+				}else{
+					alert("Voto Obrigatorio");
+				}
+				
+			}
+		
+	</script>
+
+	<body onload="idade = prompt('digite sua idade'); verif_voto(idade)">
+	
+	</body>
+</html>
